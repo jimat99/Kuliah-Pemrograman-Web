@@ -1,0 +1,60 @@
+.background-umum {
+	background-color: #FFF4C6;
+}
+
+.border-umum {
+	border: solid 5px #222222;
+}
+
+.font-umum {
+	color: #000000;
+	font-family: Arial;
+}
+
+.header {
+	font-size: 16pt;
+}
+
+.navigasi {
+	overflow: hidden;
+}
+
+.daftar-navigasi {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.list-navigasi {
+	float: left;
+	height: 100%;
+}
+
+.link-navigasi {
+	display: block;
+	height: 100%;
+	padding: 6px;
+	font-size: 20pt;
+	text-decoration: none;
+}
+
+.link-navigasi:hover {
+	opacity: 0.5;
+}
+
+.data-hewan-header {
+	width: 120px;
+}
+
+.gambar-hewan {
+	height: 100px;
+	width: 120px;
+}
+
+.link-aksi {
+	text-decoration: none;
+}
+
+.link-aksi:hover {
+	opacity: 0.5;
+}
