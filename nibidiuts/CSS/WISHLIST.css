@@ -1,0 +1,228 @@
+
+.container{
+    position: relative;
+    top: 0px;
+    left: 0px;
+ 
+}
+.topbar{
+    top:0;
+    padding: 50px;
+    background-color:#B7FB00;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -7px;
+}
+
+
+.img{
+    margin-top: -55px;
+    position: absolute;
+    background-size: contain;
+    float: left;
+}
+
+.img2{
+    margin-top: -25px; 
+    margin-left: 6px;
+    position: absolute;
+    background-size: contain;
+    float: left;
+}
+
+.navbar{
+    margin-top: -10px;
+    display: flex;
+    font-family: Segoe UI;
+    background-size: contain;
+    float: right;
+    font-weight: bold;
+
+
+}
+
+ul{
+    list-style-type: none;
+    margin:0px;
+    padding: 0;
+    display: inline-block;
+}
+
+li{
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.link-navigasi:hover {
+    border-bottom: 3px solid white;
+}
+
+
+article {
+
+}
+
+article p {
+    padding: 10px;
+    line-height: 1.5;  
+}
+
+
+article .prekonten {
+    width:100%;
+    height: 850px;
+    border-radius: 25px;
+    border: 1px solid gainsboro;
+    float: left;
+    padding:0px;
+
+
+}
+article .konten {
+    width: 300px;
+    height: 700px;
+    margin: 4px;
+    border-radius: 25px;
+    border: 1px solid gainsboro;
+    float: left;
+
+
+}
+
+article .indomie{
+margin-top: 30px;
+}
+
+article .isi {
+    width: 98.5%;
+    height: auto;
+    margin: 5px 5px 5px 5px;
+    border-radius: 3px;
+    border: 1px solid gainsboro;
+    float: left;
+}
+article .isi .judul {
+    font-size: xx-large;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+article .isi p {
+    margin-top: 0;
+}
+article .isi img {
+    float: left;
+    margin: 5px 5px 5px 5px;
+}
+
+article .konten img {
+    width: 95.8%;
+    height: 150px;
+    margin: 5px 5px 5px 5px;
+
+}
+
+article .konten:hover {
+    opacity:0.9;
+
+}
+article .konten .judul a {
+    margin-left: 80px;
+    text-decoration: none;
+    font-size:x-large;
+    color:#020101;
+
+}
+
+button{
+    background: -webkit-linear-gradient(left, #a6f77b, #2dbd6e);
+    border: none;
+    border-radius: 21px;
+    margin-left: 75px;
+    cursor: pointer;
+    color: black;
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 42.3px;
+    width: 153px;
+    margin-top: -35px;
+}
+
+input[type="text"]{
+    width: 274px;
+    margin-bottom: 5px;
+}
+
+button:hover{
+    cursor: pointer;
+    transition: .3s;
+    opacity: .9;
+    box-shadow: -5px 5px 5px 0px rgba(33,33,33,.5);
+    background:-webkit-linear-gradient(right, #B7FB00, #2dbd6e);
+}
+
+.link-navigasi:hover {
+    border-bottom: 3px solid white;
+}
+
+.container5{
+    width: 100%;
+    }
+
+.bayar{
+    position: absolute;
+    margin-left: 37%;
+    margin-top: 720px;
+}
+
+.buttonstyle{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    border-radius: 3px;
+    margin-left:-440px;
+    margin-top:-187px;
+}
+
+.buttonstyle2{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    border-radius: 3px;
+    margin-left:-130px;
+    margin-top:-187px;
+}
+
+
+.buttonstyle3{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    border-radius: 3px;
+    margin-left: 180px;
+    margin-top:-187px;
+}
+
+
+.buttonstyle4{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    border-radius: 3px;
+    margin-left:490px;
+    margin-top:-187px;
+}
+
+
