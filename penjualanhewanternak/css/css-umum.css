@@ -1,0 +1,145 @@
+/* Class yang banyak digunakan */
+.background-umum {
+	background-color: #333333;
+}
+
+.background-abu-abu {
+	background-color: #808080;
+}
+
+.border-umum {
+	border: solid 5px #808080;
+	border-radius: 20px;
+}
+
+.font-family-dekorasi {
+	font-family: Comic Sans MS;
+}
+
+.font-family-teks {
+	font-family: Tahoma;
+}
+
+.font-putih {
+	color: #FFFFFF;
+}
+
+.margin-titik-dua {
+	margin-left: 20px;
+	margin-right: 5px;
+}
+
+
+/* Class yang lebih spesifik */
+.header {
+	margin-bottom: 5px; text-align: center;
+
+	font-size: 16pt;
+}
+
+.ikon-header {
+	margin-left: auto;
+	margin-right: auto;
+	height: 115px;
+	width: 115px;
+}
+
+.navigasi {
+	overflow: hidden;
+	margin-bottom: 5px;
+
+	/* Membuat sticky navbar */
+	position: sticky;
+	top: 0;
+}
+
+.navigasi-ikon-gitar {
+	float: left;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+.daftar-navigasi {
+	list-style-type: none;
+
+	margin: 0;
+	padding: 0;
+}
+
+.list-navigasi {
+	float: left;
+
+	height: 100%;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.link-navigasi {
+	display: block;
+	height: 100%;
+	padding: 6px; /**/
+
+	font-size: 20pt;
+	text-decoration: none;
+}
+
+.link-navigasi:hover:not(.active) {
+	background-color: #808080;
+	border-top: solid 5px #B5651D;
+}
+
+.ikon-umum {
+	width: 45px;
+	height: 45px;
+}
+
+.active {
+	background-color: #B5651D;
+	border-bottom: 5px solid #B5651D;
+}
+
+.konten {
+	margin-bottom: 5px;
+	padding: 25px;
+}
+
+.teks-konten {
+	font-size: 14pt;
+	text-align: justify;
+}
+
+.teks-bijak {
+	font-size: 14pt;
+	text-align: center;
+	font-style: italic;
+}
+
+.footer {
+	text-align: center;
+}
+
+.ikon-footer {
+	margin-top: 10px;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+.data-hewan-header {
+	width: 120px;
+}
+.gambar-hewan {
+	height: 100px;
+	width: 120px;
+}
+.td-aksi {
+	text-align: center;
+}
+.link-aksi {
+	text-decoration: none;
+}
+.link-aksi:hover {
+	background-color: #B5651D;
+}
+.font-pembatas {
+	text-align: center;
+}
