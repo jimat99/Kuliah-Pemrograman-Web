@@ -1,0 +1,86 @@
+/* Khusus halaman ini */
+body {
+	background-color:#3F4B4F;
+}
+.container-form {	
+	background-color: #B7FB00;
+
+	margin: auto;
+	margin-top: 50px;
+
+	height: 400px;
+	width: 350px;
+}
+
+.form-rata-tengah {	
+	text-align: center;
+}
+
+.gambar-bunga {
+	width: 250px;
+
+	margin-top: -20px;
+	margin-left: -120px;
+	position: absolute;
+}
+
+.gambar-nibidi {
+	width: 200px;
+
+	margin-top: 40px; 
+	margin-left: -105px;
+	position: absolute;
+}
+
+.form-daftar {
+	padding-top: 170px;
+}
+
+.teks-input {	
+	margin-top: 20px;
+	text-align: center;
+	height: 20px;
+	width: 200px;
+}
+
+.button-daftar {
+	background: -webkit-linear-gradient(right, #A6F77B, #2DBD6E);
+
+	cursor: pointer;
+	
+	font-family: Segoe UI;
+	font-size: 16pt;
+
+	border: none;
+	border-radius: 20px;
+	box-shadow: 3px 7px #888888;
+	margin-top: 20px;
+
+	height: 40px;
+	width: 200px;
+}
+
+.button-daftar:hover {
+	opacity: 0.5;
+}
+
+.teks-buat-akun {
+	font-family: Segoe UI;
+}
+
+.button-kembali {
+	background-color: #f1f1f1;
+	color: black;
+	
+	display: inline-block;
+	
+	margin-top: 20px;
+	margin-left: 15px;
+	padding: 8px 16px;
+
+	text-decoration: none;
+}
+
+.button-kembali:hover {
+	opacity: 0.7;
+}
